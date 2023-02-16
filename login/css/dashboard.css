@@ -1,0 +1,434 @@
+@font-face {
+    font-family: ProximaNova-Extrabld;
+    src: url(../font/FontsFree-Net-Proxima-Nova-Xbold.otf);
+}
+@font-face {
+    font-family: ProximaNova-semibld;
+    src: url(../font/FontsFree-Net-GothamLight.ttf);
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(../font/ProximaNovaFont.otf);
+}
+@font-face {
+    font-family: ProximaNova-Semibold;
+    src: url(../font/FontsFree-Net-Proxima-Nova-Sbold.otf);
+}
+body {
+    background: #fafbfd;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.bg-light {
+    background: white !important;
+    box-shadow: rgba(189, 186, 186, 0.35) 0px 5px 15px;
+    padding: 0 25px;
+}
+.navbar-brand img {
+    margin: 0px 4px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: normal !important;
+}
+.icons {
+    height: 28px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    padding: 11px 0px;
+    margin: 0 36px;
+    cursor: pointer;
+}
+.isshow {
+    display: none;
+}
+.icons img {
+    margin: 0 3px;
+    height: 23px;
+    width: 23px;
+}
+.icons:hover .ishide {
+    display: none;
+}
+.icons:hover .isshow {
+    display: block;
+}
+
+.menu {
+    height: 20px;
+    width: 580px;
+    left: 192px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 4px;
+}
+.home {
+    height: 28px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    padding: 11px 0px;
+    float: left;
+}
+.home img {
+    margin: 0 3px;
+}
+.icons span {
+    padding: 0 4px;
+}
+.rightside {
+    float: right;
+    position: relative;
+    left: 32%;
+    right: 0;
+    top: 5px;
+    display: flex;
+}
+.chat {
+    width: 119px;
+}
+.profile.icons {
+    left: -26px;
+    position: relative;
+}
+
+.useName {
+    position: relative;
+    margin-top: 50px;
+    left: 48px;
+}
+.useName p {
+    font-size: 26px;
+    font-family: ProximaNova-Extrabld, sans-serif;
+    color: rgb(51, 51, 51);
+    margin: 0;
+}
+.useName span {
+    font-family: ProximaNova;
+    color: rgb(140, 145, 151);
+}
+.useName a {
+    font-size: 14px;
+}
+.useName img {
+    width: 11px;
+    height: 18px;
+}
+.round {
+    width: 50px;
+    height: 50px;
+    background: #fff7e3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round img {
+    width: 30px;
+    height: 30px;
+}
+.orangeScore {
+    position: relative;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.orangeScore p {
+    margin: 0 20px;
+    line-height: 1;
+    font-weight: 600;
+}
+.orangeScore span {
+    color: rgb(124, 140, 171);
+    font-size: 13px;
+}
+.round1 {
+    background: none;
+    background-size: cover;
+    vertical-align: middle;
+    transform: rotate(90deg);
+}
+.round1 img {
+    width: 38px;
+    height: 50px;
+}
+.Hf {
+    width: 100%;
+}
+.box-container {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 4rem;
+}
+.healthBf {
+    box-sizing: border-box;
+    letter-spacing: 1.2px;
+    color: rgb(117, 117, 117);
+    display: flex;
+    line-height: 1.5em;
+    margin: 20px 0px 1em 6.3rem;
+    text-transform: uppercase;
+    height: 17px;
+    font-size: 14px;
+    font-family: ProximaNova-Semibold;
+}
+.box-container {
+    display: flex;
+}
+.hkSlXr {
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.2s ease-in 0s;
+    color: rgb(13, 26, 53);
+    padding: 5px;
+    text-decoration: none !important;
+}
+.hkSlXr:hover {
+    transform: scale(1.1);
+}
+.cuwhSJ {
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: inherit;
+    -webkit-box-align: inherit;
+    align-items: inherit;
+    display: flex;
+}
+.cuwhSJ img {
+    width: 35px;
+    height: 35px;
+}
+.fEGBFL {
+    width: 100px;
+    font-size: 16px;
+}
+.fEGBFL {
+    color: rgb(13, 26, 53);
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: ProximaNova-Semibold;
+}
+.item {
+    width: 30%;
+    float: left;
+    margin: 0 6px;
+    cursor: pointer;
+}
+.item img {
+    border-radius: 11px;
+}
+.item img:hover {
+    transform: scale(0.9);
+    transition: transform 500ms ease-in-out;
+}
+.imge {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 341px;
+    width: 85%;
+}
+.imge img {
+    width: 100%;
+    height: 340px;
+    border-radius: 5px;
+}
+.imge:hover {
+    transform: scale(1.1);
+    transition: transform 500ms ease-in-out;
+}
+.imge img:hover .subtext {
+    transform: scale(1.2);
+    transition: transform 500ms ease-in-out;
+}
+.width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    position: absolute;
+    top: 0;
+    font-family: ProximaNova-Extrabld, sans-serif;
+    font-size: 27px;
+    line-height: 1.3;
+    margin-left: 9px;
+    width: 91%;
+    padding: 9px 2px;
+    cursor: pointer;
+}
+.subtext {
+    position: relative;
+    bottom: 85px;
+    width: 100%;
+    background: white;
+    height: 86px;
+    border-radius: 5px;
+    padding: 10px 17px;
+}
+.subtext p:first-child {
+    box-sizing: border-box;
+    padding: 0px;
+    display: flex;
+    color: rgb(33, 104, 243);
+    font-size: 16px;
+    font-family: ProximaNova-Semibold, sans-serif;
+    line-height: 1.5em;
+    margin: 0px;
+}
+.klvRZo {
+    box-sizing: border-box;
+    padding: 0px;
+    color: black;
+    display: flex;
+    font-size: 14px;
+    font-family: ProximaNova, sans-serif;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+.cstmMargin {
+    margin: 25px 0;
+}
+.margin {
+    margin-bottom: 35px;
+}
+.whiteColor {
+    color: white;
+    font-size: 30px;
+}
+.sub1 {
+    color: black;
+}
+.sText {
+    position: relative;
+    top: auto;
+    bottom: 80px;
+    border-radius: 13px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 16px;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(81, 99, 186, 0.898);
+}
+.name {
+    box-sizing: border-box;
+    padding: 2px;
+    display: flex;
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    font-family: ProximaNova-Semibold, sans-serif;
+    line-height: 1.5em;
+    margin: 0px;
+}
+.jTaKbz {
+    box-sizing: border-box;
+    padding: 2px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: ProximaNova, sans-serif;
+    line-height: 1.5em;
+    margin: 0px;
+}
+.arrow {
+    position: absolute;
+    top: auto;
+    bottom: 21px;
+    left: auto;
+    right: 10px;
+}
+.arrow img {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    vertical-align: middle;
+    transform: rotate(90deg);
+}
+.iWfpRg {
+    box-sizing: border-box;
+    color: rgb(124, 140, 171);
+    font-size: 14px;
+    font-family: ProximaNova, sans-serif;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+    display: block;
+    margin: 20px 0px 0px;
+    padding: 0px;
+}
+.kDZNiM {
+    box-sizing: border-box;
+    color: rgb(13, 26, 53);
+    font-size: 23px;
+    font-family: ProximaNova, sans-serif;
+    line-height: 1.2;
+    letter-spacing: 0.00938em;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.cNmhAe {
+    box-sizing: border-box;
+    color: rgb(124, 140, 171);
+    font-size: 14px;
+    font-family: ProximaNova-Semibold, sans-serif;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+    display: block;
+    margin: 0px;
+    padding: 0px 0px 0.35em;
+}
+.text img {
+    width: 35px;
+    position: absolute;
+    top: -136px;
+    left: auto;
+    right: 50px;
+}
+.closeImg {
+    position: absolute;
+    width: 35px;
+    top: 8px;
+    height: 35px;
+    left: auto;
+    right: 30px;
+}
+.closeImg img {
+    height: 35px;
+    width: 35px;
+}
+#myCarousel {
+    padding: 0 48px;
+}
+.textLast img {
+    width: 260px;
+    margin-left: 4.2rem;
+}
+.cbcFcb {
+    box-sizing: border-box;
+    color: rgb(124, 140, 171);
+    font-size: 16px;
+    font-family: ProximaNova, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    display: block;
+    padding: 0px;
+    margin: 0 0 0 47px;
+}
