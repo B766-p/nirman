@@ -1,0 +1,1 @@
+{"RESULT":"2","MSG":"No Cart","html":"<div class=\"col-lg-12 mb20 text-center col-12\">\r\n                  <img class=\"rounded\" src=\"images\/choose-service.svg\" style=\"width: 230px;\">\r\n                  <h6>Choose Services<\/h6>\r\n              <\/div>","mobilehtml":""}
